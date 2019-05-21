@@ -156,6 +156,7 @@ Before use client side , you should change the `my_url` to the `ip address` and 
 >python3 your/path/to/client.py --help
 ```
 
+You can see more information of this model in this [article][my article].
 
 
 
@@ -164,7 +165,8 @@ Before use client side , you should change the `my_url` to the `ip address` and 
 
 
 
-[^1]: Malware Families Classification Based On CNN
+
+[my article]: www.willxu1992.com/2019/05/19/research-summary.html "willxu1992.com"
 
 
 
