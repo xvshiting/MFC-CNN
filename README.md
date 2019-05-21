@@ -166,7 +166,7 @@ You can see more information of this model in this [article][my article].
 
 
 
-[my article]: www.willxu1992.com/2019/05/19/research-summary.html "willxu1992.com"
+[my article]: http://www.willxu1992.com/2019/05/19/research-summary.html "willxu1992.com"
 
 
 
