@@ -76,7 +76,7 @@ def read_data_set():
     validation_start=test_end+1
     validation_end=sample_num-1
     print(train_start,train_end,test_start,test_end,validation_start,validation_end)
-    data_sets.train=DataSet(images=image_data[train_start:sample_num-1],label=lable_data[train_start:sample_num-1])
+    data_sets.train=DataSet(images=image_data[train_start:train_end],label=lable_data[train_start:train_end])
     data_sets.test=DataSet(images=image_data[test_start:test_end],label=lable_data[test_start:test_end])
     data_sets.validation=DataSet(images=image_data[validation_start:validation_end],label=lable_data[validation_start:validation_end])
     return data_sets
