@@ -63,7 +63,7 @@ def process(dir_path):
 	image_data_out=open(os.path.join(save_path,'image_data.pkl'),'wb')
 	lable_data_out=open(os.path.join(save_path,'image_label_data.pkl'),'wb')
 	image_data=np.array(image_data)
-	image_data=np.reshape(image_data,(image_data.shape[0],image_data.shape[2]))
+	image_data=np.reshape(image_data,(image_data.shape[0],image_data.shape[1]*image_data.shape[2]))
 	image_label=np.array(image_label)
 	#shuffle data
 	perm = np.arange(image_data.shape[0])
